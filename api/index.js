@@ -143,10 +143,10 @@ async function askGemini(text, history, searchContext, timeoutMs) {
   temperature: 0.5,
   maxOutputTokens: 240,
   thinkingConfig: {
-    thinkingLevel: "minimal"
-  }
+  thinkingLevel: "minimal"
 }
-        }
+}
+})
       })
     },
     Math.min(GEMINI_TIMEOUT_MS, timeoutMs)
