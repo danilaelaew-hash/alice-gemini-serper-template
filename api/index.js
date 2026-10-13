@@ -5,9 +5,9 @@ const MAX_HISTORY_MESSAGES = 8;
 const MAX_HISTORY_MESSAGE_CHARS = 180;
 const MAX_SESSION_STATE_BYTES = 900; // У Яндекса предел 1 КБ; оставляем запас.
 const MAX_ALICE_TEXT = 1024;
-const TOTAL_RESPONSE_BUDGET_MS = 3600;
-const TOTAL_RESPONSE_BUDGET_MS = 3600;
-const GEMINI_TIMEOUT_MS = 2400;
+const TOTAL_RESPONSE_BUDGET_MS = 3800;
+const SERPER_TIMEOUT_MS = 600;
+const GEMINI_TIMEOUT_MS = 3200;
 
 const SYSTEM_PROMPT = [
   "Ты — доброжелательный голосовой помощник в навыке «Умный собеседник» Яндекс Алисы.",
