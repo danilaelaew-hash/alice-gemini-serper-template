@@ -6,7 +6,7 @@ const MAX_HISTORY_MESSAGE_CHARS = 180;
 const MAX_SESSION_STATE_BYTES = 900; // У Яндекса предел 1 КБ; оставляем запас.
 const MAX_ALICE_TEXT = 1024;
 const TOTAL_RESPONSE_BUDGET_MS = 3600;
-const SERPER_TIMEOUT_MS = 850;
+const TOTAL_RESPONSE_BUDGET_MS = 3600;
 const GEMINI_TIMEOUT_MS = 2400;
 
 const SYSTEM_PROMPT = [
